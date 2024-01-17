@@ -3,6 +3,12 @@
  **EN**
 _In this repository, you will find various files related to a completed project. Included are a detailed project report, the dataset used, and the Python code implementing the project._
 
+Files:
+* [Water Potability.ipynb](<Water Potability.ipynb>): contains the Jupyter notebook with the project code
+* [water_potability.xls](water_potability.xls): contains the data used in the project
+* [Water Quality Prediction Report.pdf](<Water Quality Prediction Report.pdf>): project report in English
+* [Relatório da Previsão da Qualidade da Água.pdf](<Relatório da Previsão da Qualidade da Água.pdf>): project report in Portuguese
+
 **Objective:**
 
 This project aimed to analyze the "Drinking Water Probability" dataset with the goal of predicting whether a water sample is potable or not (1 or 0).
@@ -21,13 +27,20 @@ _Data Exploration:_ Statistical analysis of features, representation of water di
 _Pre-processing:_ Identification of missing values and outliers, with illustrations to easy visualization. Missing values were treated using the KNN Imputer method from the scikit-learn library, with k=10. Regarding outliers, after analysis, it was decided not to treat them as they were considered plausible values.
 
 _Models:_ The data were split into X_train, X_test, y_train, and y_test sets, reserving 30% of the data for testing. The need to scale the data was identified. Subsequently, three models were used: SVC, MLP Classifier, and Random Forest, with GridSearchCV and Cross-validation.
-Results: Among the evaluated models, Random Forest achieved the best results, with an accuracy of 0.678.
+
+_Results:_ Among the evaluated models, Random Forest achieved the best results, with an accuracy of 0.678.
 
 
 
 
 **PT**
 _Neste repositório, encontrar-se-ão diversos ficheiros relacionados com um projeto concluído. Incluem-se um relatório detalhado do projeto, o conjunto de dados utilizado e o código em Python da implementação do projeto._
+
+Ficheiros:
+* [Water Potability.ipynb](<Water Potability.ipynb>): contém o jupyter notebook com o código do projeto
+* [water_potability.xls](water_potability.xls): contém os dados usados no projeto
+* [Water Quality Prediction Report.pdf](<Water Quality Prediction Report.pdf>): relatório do projeto em inglês
+* [Relatório da Previsão da Qualidade da Água.pdf](<Relatório da Previsão da Qualidade da Água.pdf>): relatório do projeto em português
 
 **Objetivo:**
 
