@@ -1,6 +1,7 @@
 # Water Quality Prediction
  
- **EN**
+ ## EN
+ 
 _In this repository, you will find various files related to a completed project. Included are a detailed project report, the dataset used, and the Python code implementing the project._
 
 Files:
@@ -33,7 +34,8 @@ _Results:_ Among the evaluated models, Random Forest achieved the best results, 
 
 
 
-**PT**
+## PT
+
 _Neste repositório, encontrar-se-ão diversos ficheiros relacionados com um projeto concluído. Incluem-se um relatório detalhado do projeto, o conjunto de dados utilizado e o código em Python da implementação do projeto._
 
 Ficheiros:
